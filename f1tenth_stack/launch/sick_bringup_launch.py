@@ -116,7 +116,7 @@ def generate_launch_description():
         package='sick_scan_xd',
         executable='sick_generic_caller',
         name='sick_node',
-        arguments=[sick_launch_file] # Update if your launch file lives elsewhere
+        arguments=[sick_launch_file]
     )
     ackermann_mux_node = Node(
         package='ackermann_mux',
